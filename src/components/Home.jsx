@@ -1,23 +1,32 @@
-import React from "react";
+import React from 'react';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
 const Home = () => {
+  const [typeEffect]=useTypewriter({
+    words:["web developer","software engineer","problem solver"],
+    loop:{},
+    typeSpeed:100,
+    deleteSpeed:40
+  })
+
   return (
     <div
       name="home"
-      className=" h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className=" mt-96 flex flex-col justify-center h-full md:mt-28">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a  software engineer
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+        <div className="mt-64 flex flex-col justify-center h-full md:mt-20">
+          <h2 className="text-4xl sm:text-7xl lg:text-6xl font-bold lg:mr-3 text-white">
+            I'm a <br /> <span>{typeEffect}</span>
+            <Cursor />
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 3 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and NodeJs.
+            I have 3 years of experience building and designing software.
+            Currently, I love to work on web applications using technologies like
+            React, Tailwind, Next.js, and Node.js.
           </p>
 
           <div>
