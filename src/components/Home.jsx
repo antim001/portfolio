@@ -18,7 +18,7 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="mt-64 flex flex-col justify-center h-full md:mt-20">
+        <div className="mt-64 flex flex-col justify-center h-full md:mt-20 sm:mt-10">
           <h2 className="text-4xl sm:text-7xl lg:text-6xl font-bold lg:mr-3 text-white">
             I'm a <br /> <span>{typeEffect}</span>
             <Cursor />
