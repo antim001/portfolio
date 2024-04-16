@@ -1,6 +1,9 @@
 
+import {FaGithub,FaLinkedin} from 'react-icons/fa';
+
 
 const Contact = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div
       name="contact"
@@ -44,8 +47,23 @@ const Contact = () => {
             </button>
           </form>
         </div>
+      <div className='flex mt-10 mx-auto gap-5'>
+        <a href="https://www.linkedin.com/in/antim-sarker-6a982a240/"target="_blank" rel="noopener noreferrer">
+        <FaLinkedin className='text-4xl'></FaLinkedin>
+        </a>
+       <a href="https://github.com/antim001"target="_blank" rel="noopener noreferrer">
+       <FaGithub className='text-4xl'></FaGithub>
+       </a>
       </div>
+      <footer className="text-center py-4 text-gray-500">
+      <p>
+        &copy; Antim {currentYear}. All rights reserved.
+      </p>
+    </footer>
+      </div>
+     
     </div>
+    
   );
 };
 
