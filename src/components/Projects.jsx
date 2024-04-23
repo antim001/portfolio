@@ -1,10 +1,10 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+
+import demo5 from "../assets/portfolio/demo5.JPG";
+import demo3 from "../assets/portfolio/demo3.JPG";
+import demo2 from "../assets/portfolio/demo2.JPG";
+import demo4 from "../assets/portfolio/demo4.JPG";
+import demo6 from "../assets/portfolio/demo6.JPG";
 import demo1 from '../assets/portfolio/demo1.JPG'
 import { Link } from 'react-scroll';
 
@@ -19,23 +19,34 @@ const Projects = () => {
     },
     {
       id: 2,
-      src: reactParallax,
+      src: demo2,
+      demoLink: "https://netflix-antim.vercel.app/",
+      codeLink: "https://github.com/antim001/Netflix2.0"
     },
     {
       id: 3,
-      src: navbar,
+      src: demo3,
+      demoLink: "https://net-newspaper.netlify.app/",
+      codeLink: "https://github.com/antim001/e-newspaper"
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: demo4,
+      demoLink: "https://fruit-shop-antim.netlify.app/",
+      codeLink: "https://github.com/antim001/fruit-website"
     },
     {
       id: 5,
-      src: installNode,
+      src: demo5,
+      demoLink: "https://react-world-tour-antim.netlify.app/",
+      codeLink: "https://github.com/antim001/react-world-tour"
+
     },
     {
       id: 6,
-      src: reactWeather,
+      src: demo6,
+      demoLink: "https://rock-paper-scissor-game-js-antim.netlify.app/",
+      codeLink: "https://github.com/antim001/rock-paper-scissor-game-js"
     },
   ];
 
@@ -58,7 +69,7 @@ const Projects = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 w-full h-48 object-cover"
               />
               <div className="flex items-center justify-center">
               {demoLink && (
