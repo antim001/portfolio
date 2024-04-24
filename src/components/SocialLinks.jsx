@@ -37,7 +37,7 @@ const SocialLinks = () => {
                 <>Resume<BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>
                 </>
             ),
-            href:'/Antim_Sarker_Resume.pdf',
+            href:'https://drive.google.com/drive/home',
             style:'rounded-tr-md',
             download:true,
         }
