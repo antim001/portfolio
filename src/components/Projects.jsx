@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import demo5 from "../assets/portfolio/demo5.JPG";
 import demo3 from "../assets/portfolio/demo3.JPG";
@@ -6,7 +6,7 @@ import demo2 from "../assets/portfolio/demo2.JPG";
 import demo4 from "../assets/portfolio/demo4.JPG";
 import demo6 from "../assets/portfolio/demo6.JPG";
 import demo1 from '../assets/portfolio/demo1.JPG'
-import { Link } from 'react-scroll';
+
 
 
 const Projects = () => {
