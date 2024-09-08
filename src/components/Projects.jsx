@@ -5,7 +5,10 @@ import demo3 from "../assets/portfolio/demo3.JPG";
 import demo2 from "../assets/portfolio/demo2.JPG";
 import demo4 from "../assets/portfolio/demo4.JPG";
 import demo6 from "../assets/portfolio/demo6.JPG";
-import demo1 from '../assets/portfolio/demo1.JPG'
+import demo1 from '../assets/portfolio/demo1.JPG';
+import demo7 from '../assets/portfolio/demo7.JPG';
+
+
 
 
 
@@ -13,27 +16,31 @@ const Projects = () => {
   const portfolios = [
     {
       id: 1,
-      src: demo1,
-      demoLink: "https://bistro-foodie.vercel.app",
-      codeLink: "https://github.com/antim001/Restaurent-website"
+      src: demo7,
+      demoLink: "http://aioalliance.com/",
+      codeLink: "https://github.com/antim001/UVX-Systems/tree/main/e-commerce/src"
+      
     },
     {
       id: 2,
-      src: demo2,
-      demoLink: "https://netflix-antim.vercel.app/",
-      codeLink: "https://github.com/antim001/Netflix2.0"
+      src: demo1,
+      demoLink: "https://bistro-foodie.vercel.app",
+      codeLink: "https://github.com/antim001/Restaurent-website"
+      
     },
     {
       id: 3,
-      src: demo3,
-      demoLink: "https://net-newspaper.netlify.app/",
-      codeLink: "https://github.com/antim001/e-newspaper"
+      src: demo2,
+      demoLink: "https://netflix-antim.vercel.app/",
+      codeLink: "https://github.com/antim001/Netflix2.0"
+      
     },
     {
       id: 4,
-      src: demo4,
-      demoLink: "https://fruit-shop-antim.netlify.app/",
-      codeLink: "https://github.com/antim001/fruit-website"
+      src: demo3,
+      demoLink: "https://net-newspaper.netlify.app/",
+      codeLink: "https://github.com/antim001/e-newspaper"
+      
     },
     {
       id: 5,
@@ -55,8 +62,8 @@ const Projects = () => {
       name="projects"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8 md:mt-40 lg:mt-52">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
+        <div className="pb-4 md:mt-2 lg:mt-20 ">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
          Projects
           </p>
