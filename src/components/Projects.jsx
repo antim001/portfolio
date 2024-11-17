@@ -7,6 +7,7 @@ import demo4 from "../assets/portfolio/demo4.JPG";
 import demo6 from "../assets/portfolio/demo6.JPG";
 import demo1 from '../assets/portfolio/demo1.JPG';
 import demo7 from '../assets/portfolio/demo7.JPG';
+import demo8 from '../assets/portfolio/demo8.JPG'
 
 
 
@@ -16,37 +17,42 @@ const Projects = () => {
   const portfolios = [
     {
       id: 1,
+      src: demo8,
+      demoLink:"https://doctor-appointment-mern-project-frontend.vercel.app/",
+      codeLink:"https://github.com/antim001/Doctor-Appointment-MERN-Project"
+     
+    },
+    {
+      id: 2,
       src: demo7,
       demoLink: "http://aioalliance.com/",
       codeLink: "https://github.com/antim001/UVX-Systems/tree/main/e-commerce/src"
       
-    },
-    {
-      id: 2,
-      src: demo1,
-      demoLink: "https://bistro-foodie.vercel.app",
-      codeLink: "https://github.com/antim001/Restaurent-website"
+     
       
     },
     {
       id: 3,
-      src: demo2,
-      demoLink: "https://netflix-antim.vercel.app/",
-      codeLink: "https://github.com/antim001/Netflix2.0"
+      src: demo1,
+      demoLink: "https://bistro-foodie.vercel.app",
+      codeLink: "https://github.com/antim001/Restaurent-website"
+     
       
     },
     {
       id: 4,
-      src: demo3,
-      demoLink: "https://net-newspaper.netlify.app/",
-      codeLink: "https://github.com/antim001/e-newspaper"
+      src: demo2,
+      
+       demoLink: "https://netflix-antim.vercel.app/",
+      codeLink: "https://github.com/antim001/Netflix2.0"
+     
       
     },
     {
       id: 5,
-      src: demo5,
-      demoLink: "https://react-world-tour-antim.netlify.app/",
-      codeLink: "https://github.com/antim001/react-world-tour"
+      src: demo3,
+       demoLink: "https://net-newspaper.netlify.app/",
+      codeLink: "https://github.com/antim001/e-newspaper"
 
     },
     {
