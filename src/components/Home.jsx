@@ -1,5 +1,6 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import HeroImage from "../assets/heroImage.png";
+import Antim from '..assets/antim.png'
 
 const Home = () => {
   const [typeEffect] = useTypewriter({
@@ -44,7 +45,7 @@ const Home = () => {
         {/* Image Section */}
         <div className="mt-10 md:mt-0 flex justify-center w-full md:w-1/2">
           <img
-            src={HeroImage}
+            src={Antim}
             alt="my profile"
             className="rounded-2xl w-3/4 sm:w-2/3 lg:w-full h-auto max-h-[500px] object-contain"
           />
