@@ -1,6 +1,6 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import HeroImage from "../assets/heroImage.png";
-import Antim from '..assets/antim.png'
+import Antim from '../assets/antim.png'
 
 const Home = () => {
   const [typeEffect] = useTypewriter({
