@@ -44,12 +44,29 @@ const Home = () => {
 
         {/* Image Section */}
         <div className="mt-10 md:mt-0 flex justify-center w-full md:w-1/2">
-          <img
-            src={Antim}
-            alt="my profile"
-            className="rounded-2xl w-3/4 sm:w-2/3 lg:w-full h-auto max-h-[500px] object-contain"
-          />
-        </div>
+  <div className="relative w-3/4 sm:w-2/3 lg:w-full max-w-[500px]">
+    {/* Glowing Arms */}
+    <div className="absolute inset-0 flex justify-center items-center">
+      {/* Top Arm */}
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 h-2 w-32 bg-blue-500 rounded-full animate-pulse-blur"></div>
+      {/* Bottom Arm */}
+      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-2 w-32 bg-blue-500 rounded-full animate-pulse-blur"></div>
+      {/* Left Arm */}
+      <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-2 h-32 bg-blue-500 rounded-full animate-pulse-blur"></div>
+      {/* Right Arm */}
+      <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-2 h-32 bg-blue-500 rounded-full animate-pulse-blur"></div>
+    </div>
+    {/* Image */}
+    <div className="relative rounded-2xl p-2 shadow-2xl">
+      <img
+        src={Antim}
+        alt="my profile"
+        className="rounded-2xl w-full h-auto object-contain"
+      />
+    </div>
+  </div>
+</div>
+
       </div>
     </div>
   );
